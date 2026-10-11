@@ -1,0 +1,134 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good morning",
+                "Good evening"
+            ],
+            "responses": [
+                "Hello! I am the Scholarship Assistance Chatbot. How can I help you?"
+            ]
+        },
+        {
+            "tag": "scholarship_eligibility",
+            "patterns": [
+                "Who is eligible for scholarship?",
+                "What is the eligibility for scholarship?",
+                "Am I eligible for a scholarship?",
+                "What are the scholarship eligibility requirements?",
+                "Who can apply for scholarship?"
+            ],
+            "responses": [
+                "Scholarship eligibility depends on the scholarship scheme. It may include academic performance, family income, category, course and other requirements."
+            ]
+        },
+        {
+            "tag": "required_documents",
+            "patterns": [
+                "What documents are required for scholarship?",
+                "Which documents do I need?",
+                "What documents should I submit?",
+                "Documents needed for scholarship",
+                "What papers are required for scholarship?"
+            ],
+            "responses": [
+                "Commonly required documents may include student ID, marks card, income certificate, bank details and other documents specified by the scholarship authority."
+            ]
+        },
+        {
+            "tag": "application_process",
+            "patterns": [
+                "How can I apply for scholarship?",
+                "How do I apply?",
+                "What is the scholarship application process?",
+                "How to submit scholarship application?",
+                "How can I register for scholarship?"
+            ],
+            "responses": [
+                "To apply, check the scholarship requirements, register on the appropriate portal or submit the required form, upload the necessary documents and complete the application."
+            ]
+        },
+        {
+            "tag": "application_deadline",
+            "patterns": [
+                "What is the scholarship deadline?",
+                "When is the last date to apply?",
+                "When should I apply for scholarship?",
+                "What is the last date for scholarship application?",
+                "When does the scholarship application close?"
+            ],
+            "responses": [
+                "The application deadline depends on the scholarship scheme. Students should check the official scholarship notification for the current last date."
+            ]
+        },
+        {
+            "tag": "scholarship_amount",
+            "patterns": [
+                "How much scholarship will I get?",
+                "What is the scholarship amount?",
+                "How much money is given in scholarship?",
+                "How much financial support does the scholarship provide?",
+                "What amount will I receive?"
+            ],
+            "responses": [
+                "The scholarship amount varies depending on the scheme, course, eligibility and other conditions."
+            ]
+        },
+        {
+            "tag": "application_status",
+            "patterns": [
+                "How can I check my scholarship status?",
+                "What is my application status?",
+                "How do I track my scholarship application?",
+                "Can I check my scholarship application status?",
+                "Where can I see my scholarship status?"
+            ],
+            "responses": [
+                "You can usually check the application status by logging into the official scholarship portal using your registered details."
+            ]
+        },
+        {
+            "tag": "scholarship_renewal",
+            "patterns": [
+                "How can I renew my scholarship?",
+                "What is scholarship renewal?",
+                "How do I renew my scholarship?",
+                "Can I renew my scholarship next year?",
+                "What are the renewal requirements?"
+            ],
+            "responses": [
+                "Scholarship renewal requirements depend on the scheme. Students may need to maintain academic performance and submit the required renewal documents before the deadline."
+            ]
+        },
+        {
+            "tag": "contact_help",
+            "patterns": [
+                "Whom should I contact for help?",
+                "Who can help me with scholarship?",
+                "Where can I get scholarship assistance?",
+                "Who should I contact?",
+                "How can I get help?"
+            ],
+            "responses": [
+                "For assistance, contact your college scholarship coordinator or the official scholarship authority."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you",
+                "Thank you",
+                "Thanks"
+            ],
+            "responses": [
+                "You're welcome! All the best with your scholarship application."
+            ]
+        }
+    ]
+}
